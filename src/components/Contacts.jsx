@@ -72,13 +72,13 @@ const ContactMe = () => {
                   <div className="col-auto">
                     <select
                       className="form-select text-white"
-                      style={{ backgroundColor: '#ffff', color: '#fe70bd' }} // Apply background color to the select dropdown
+                      style={{ backgroundColor: '#ffff', color: '#fe70bd' }}
                       id="countryCode"
                       value={countryCode}
                       onChange={(e) => setCountryCode(e.target.value)}
                     >
                       {Object.entries(CountryCode).map(([code, name]) => (
-                        <option key={code} value={code} style={{ background: '#ffff', color: '#fe70bd' }}>{name}</option> // Apply background color to each option
+                        <option key={code} value={code} style={{ background: '#ffff', color: '#fe70bd' }}>{name}</option>
                       ))}
                     </select>
                   </div>

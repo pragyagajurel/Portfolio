@@ -29,7 +29,7 @@ const MainPage = () => {
           <div className="hero_title2 fw-bold mb-4 text-white" style={{ fontSize: '2.5rem', marginBottom: '1rem'}}>
             Pragya Gajurel
           </div>
-          <Link to="/about">
+          <Link to="/about" style={{ textDecoration: 'none' }}>
             <div className="fw-bold mb-4 me-lg-5" style={{color: '#ffff', fontSize:'1rem'}}>
               Learn More About Me
             </div>
