@@ -1,0 +1,16 @@
+.floating-img {
+    animation: float 3s infinite; /* Apply the float animation infinitely */
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+    100% {
+      transform: translateY(0); /* Return to initial position */
+    }
+  }
+  

@@ -1,0 +1,15 @@
+/* Navigation bar custom styles */
+.navbar-custom {
+  background-color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+  color: #fe70bd;
+  font-weight: 600;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #fe70bd;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
